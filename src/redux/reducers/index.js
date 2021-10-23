@@ -4,7 +4,7 @@ import counterReducer from './counterReducer';
 import filtersReducer from './filtersReducer';
 
 const rootReducer = combineReducers({
-  value: counterReducer,
+  count: counterReducer,
 });
 
 export default rootReducer;
